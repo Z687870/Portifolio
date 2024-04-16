@@ -15,8 +15,7 @@
     --bg-color:#000000;
     --second-bg-color:#263238;
     --text-color:#fff;
-    --main-color: 
-#FC4C6E;
+    --main-color:#FC4C6E;
 }
 
 html {
@@ -189,23 +188,60 @@ section .heading{
 }
 
 .about-content h2{
-    text-align: left;
-    line-height: 1.2;
     font-size: 3.5rem;
+    text-align: center;
 }
 
 .about-content h2 span {
-      color: #9C352E;
+      color: var(--main-color);
 }
 
 .about-content h3 {
+    text-align: center;
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .about-content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 2rem 0 3rem;
+}
+
+.about-content .btn{
+  align-items: center;
+    margin:  0 8rem 0;
+}
+
+/*======================= education design =======================*/
+
+.education h2 span {
+    color: var(--main-color);
+}
+
+
+.education-container{
+    margin: 3rem;
+    text-align: center;
+}
+.education-container table {
+    width: 100%;
+    border: 0.5rem var(--main-color);
+} 
+
+.education-container th {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.9rem;
+    background: var(--main-color);
+   
+}
+
+.education-container td {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    border: 1px solid var(--main-color);
 }
 
 /*======================= experience design =======================*/
@@ -279,7 +315,7 @@ section .heading{
 }
 
 .skill h2 span {
-    color: #9C352E;
+    color: var(--main-color);
 
 }
 
@@ -332,10 +368,10 @@ section .heading{
     max-width: 10rem;
     
 }
-/*======================= skill design =======================*/
+/*======================= contact design =======================*/
 
 .contact h2 span {
-    color: #9C352E;
+    color: var(--main-color);
 }
 
 .contact-form {
@@ -353,9 +389,14 @@ section .heading{
     font-size: 1.5rem;
 }
 
-.contact-icon i {
+.contact-name {
+     margin: 2rem;
+     font-size: 2rem;
+}
+
+.contact-name i {
     color: var(--main-color);
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 0.5rem 0;
 }
 
@@ -394,6 +435,48 @@ section .heading{
 
 /*======================= footer design =======================*/
 
+.final {
+   height: 35vh;
+   margin: 6rem 0 0.2rem;
+   background: var(--main-color);
+}
+
+.final-footer {
+   display: flex;
+    justify-content: space-between;
+}
+
+.final-footer p {
+    color: var(--second-bg-color);
+    font-size: 1.7rem;
+    margin: 5rem;
+}
+
+final-footer p i{
+    padding: 2.1rem;
+    margin: 1.1rem
+}
+
+
+
+.final-footer a{
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+.final-footer a:hover{
+    color: var(--text-color);
+}
+
+.final-footer iframe {
+    margin: 2rem;
+}
+
+
+/*======================= footer design =======================*/
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -422,7 +505,6 @@ section .heading{
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
-
 
 
 
