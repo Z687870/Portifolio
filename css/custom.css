@@ -26,7 +26,7 @@
     height: 70vh;
     padding: 3rem 10% 1rem;
     margin: 3.5rem 0 1.5rem 0;
-    background-color: var(--second-bg-color);
+    background-color:#1a1919;
     border-radius: 1.6rem;
     box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
     letter-spacing:  .1rem;
@@ -49,7 +49,7 @@
     height: 60vh;
     padding: 3rem 10% 1rem;
     margin: 3.5rem 0 1.5rem 0;
-    background-color: var(--second-bg-color);
+    background-color: #1a1919;;
     border-radius: 1.6rem;
     box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
     letter-spacing:  .1rem;
@@ -70,6 +70,23 @@
     font-size: 1.5rem;
 }
 
+
+    /*======================= contact design =======================*/
+
+.aboutmore  h2 span{
+    color: var(--main-color);
+    margin: 1.7rem;
+}
+
+.aboutmore p{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    margin: 1.8rem
+}
+
+.experience {
+    
+}
 
 .post-image {
     align-items: center;
@@ -229,13 +246,14 @@
         font-size: 2rem;
     }
     
+    
     .about-img img{ 
         margin: 1rem;          
-        align-items: center;
+        justify-content: center;
+        margin: 0 1rem 1rem 3rem;
     }
     
     .about-content p {
-        margin: 2rem;
         font-size: 1rem;
     }
     .about img {
@@ -243,6 +261,13 @@
         margin 3rem;
     }
     
+    .aboutmore  h2{
+        font-size: 4.3rem;
+    }
+    
+    .aboutmore  p{
+        font-size: 1.5rem;
+    }
     /*======================= education design =======================*/
     
   .education  span h2 {
@@ -260,12 +285,11 @@
     
    .contact-name {
        text-align: center;
-        display: inline-grid;
+        display: grid;
         font-size: 1.5rem; 
     }
     
     .contact-name i {
-        text-align: center;
         margin: 0.3rem;
         font-size: 2.5rem   
     }
@@ -318,7 +342,7 @@
         width: 30vw;
     }
     
-    /*======================= footer design =======================*/
+    /*======================= final design =======================*/
     .final{
         height: 70vh;
     }
@@ -326,7 +350,7 @@
        display: grid; 
     }
     .final-footer ul{
-        text-align: center;
+      margin: 4em;
     }
     
     .final-footer iframe{
@@ -344,10 +368,17 @@
         margin: 2rem;
     }
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         padding-bottom: 2rem;
     }
     
+    .home-content p{
+        font-size: 1.7rem;
+    }
+    
+    .home-content .btn{
+        margin: 1.5rem;
+    }
     .home-img {
      display: none;
     
@@ -359,10 +390,16 @@
     }
     
     .about-content p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        margin: 2rem;
     }
-    .about img {
-        width: 70vw
+    .about-img img{
+        width: 60vw;
+        margin-right: 4rem;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        
     }
     
     .about-content p {
