@@ -84,9 +84,6 @@
     margin: 1.8rem
 }
 
-.experience {
-    
-}
 
 .post-image {
     align-items: center;
@@ -176,9 +173,7 @@
         text-align: center;
     }
     
-    .contact-icon{
-        
-    }
+
      .footer {
         padding: 2rem 3%;
     }
@@ -281,7 +276,7 @@ section .heading{
     }
     .about img {
         width: 68vw;
-        margin 3rem;
+        margin: 3rem;
     }
     
     .aboutmore  h2{
@@ -324,13 +319,13 @@ section .heading{
     /*======================= contact design =======================*/
           
     .contact-icon{
+        margin: 4rem;
         justify-content: center;
         display: grid;
         align-items: center;
         margin: 3rem;
         font-size: 1.5rem;
         
-    }
     }
     
    .contact-name {
