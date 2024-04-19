@@ -196,6 +196,22 @@
     .home-img img {
           width: 70vw;
     }
+        
+    .home {
+        flex-direction: column;
+    }
+    
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    
+    .home-content p {
+        font-size: 1.5rem;
+    }
     
     #menu-icon {
         
@@ -242,9 +258,6 @@
         font-size: 1.5rem;
     }
     
-    .home-img img {
-      display: none;
-    }
     
     
     
@@ -276,7 +289,7 @@ section .heading{
     }
     .about img {
         width: 68vw;
-        margin: 3rem;
+        border-radius: 1.8rem;
     }
     
     .aboutmore  h2{

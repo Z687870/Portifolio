@@ -99,7 +99,7 @@ section .heading{
 
 .home-img img {
     width: 25vw;
-    border-radius: 2.5rem;
+    border-radius: 50%;
     shape-outside: inset(20%);
     margin: 2.5rem;
 }
@@ -181,7 +181,7 @@ section .heading{
 }
 .about-img img {
     width: 32vw;
-    border-radius: 1.5rem;
+    border-radius: 50%;
 }
 
 .heading {
