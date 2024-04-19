@@ -167,6 +167,21 @@
     .picture img {
         width: 95%;
     }
+    
+    .skill-container{
+        display: grid;
+    }
+    .contact-form{
+        display: grid;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        
+    }
+     .footer {
+        padding: 2rem 3%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -220,27 +235,35 @@
         flex-direction: column;
     }
     
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-    
     .home-content h1 {
         font-size: 5rem;
     }
     
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    
+    .home-content p {
+        font-size: 1.5rem;
+    }
+    
     .home-img img {
-        width: 50vw;
-        margin-top: 4rem;
+      display: none;
     }
     
-    .about {
-        flex-direction: column-reverse;
-    }
     
+    
+section .heading{
+    margin: 3rem 0 0.2rem;
+}
      .heading  span h2 {
         margin: 2rem;
     }
     
+      /*======================= about design =======================*/
+    .about{
+        display: grid;
+    }
     .about h3{
         margin: 2rem;
         font-size: 2rem;
@@ -254,7 +277,7 @@
     }
     
     .about-content p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .about img {
         width: 68vw;
@@ -270,32 +293,66 @@
     }
     /*======================= education design =======================*/
     
+    .education {
+        margin: 3rem 0 1rem 3rem;
+        height: 10vh;
+    }
+    
   .education  span h2 {
         margin: 2rem;
     }
-     .education-container table {
-        align-content: center;     
+     .education-container {
+        align-items: center; 
+         margin: center;
     }
+    
+    .education-container table{
+        margin-left:  -4rem;
+    }
+    
+    .education-container th{
+        margin: 1.6rem;
+        font-size: 1.4rem;
+    }
+    
+    
+    .education-container td{
+        font-size: 1.1rem;
+    }
+    
+    
     /*======================= contact design =======================*/
+          
     .contact-icon{
-        margin 4rem;
         justify-content: center;
-        text-align: center;
+        display: grid;
+        align-items: center;
+        margin: 3rem;
+        font-size: 1.5rem;
+        
+    }
     }
     
    .contact-name {
-       text-align: center;
+       margin-left:  4rem; 
         display: grid;
         font-size: 1.5rem; 
+        text-align: center;
+        width: 100%;
     }
     
     .contact-name i {
-        margin: 0.3rem;
         font-size: 2.5rem   
     }
   .contact-form{
         display: grid;
-        padding: 8rem 5% 4rem;
+        
+    }
+    
+    .contact-main{
+        align-items: center;
+        width: 100vw;
+        margin: 5.4rem;
     }
     
     .contact-icon{
@@ -305,13 +362,39 @@
         font-size: 1.5rem;
         
     }
+       
+    /*======================= skill design =======================*/
+    
+    .skill-container{
+        width: 100%;
+        display: grid;
+        align-content: center;
+       justify-content: center;
+        margin: 5rem;
+
+    }
+    
+  .skill-progress {
+        font-size: 1.5rem;
+        color: var(--text-color);
+        width: 78vw;
+       margin: 3rem 3rem 0 0;
+    
+    }
+    .skill-bar {
+        width: 100%;
+    }
     
     .skill-view ul{
         font-size: 1.3rem;
     }
     
-    .skill-code progress {
-        width: 10rem;
+    
+
+    
+    .experience {
+        height: 35vh;
+        margin: 3rem;
     }
     
      .website-container {
@@ -323,6 +406,7 @@
     
     .website-coded{
         width: 100%;
+        height: 70vh;
     }
     
     
@@ -384,7 +468,6 @@
     
     }
     
-    
     .about {
         display: grid;
     }
@@ -422,16 +505,8 @@
         color: var(--main-color);
 }
     .skill-container{
-      padding: 6rem 15% 6rem;
+     width: 100%;
         
-    }
-    
-    .skill-container h3{
-        font-size: 1.8rem;
-    }
-    
-    .skill-container ul {
-        text-align: center;
         
     }
     
@@ -446,13 +521,13 @@
 }
     
     .contact-name {
-        display: inline-grid;
+        display: grid;
         font-size: 1.4rem;  
     }
     
     .contact-name i {
-        font-size: 2.5rem   
-    }
+        font-size: 3rem;
+    }  
     
     .contact-form{
         display: grid;
